@@ -1,4 +1,15 @@
 
+---------- setup repository within dropbox
+
+cd ~/Dropbox
+
+mkdir -p pocg/scripts.git
+
+cd !$
+
+git --bare init
+
+---------- local setup - push to dropbox
 git init
 
 git add <FILE>
