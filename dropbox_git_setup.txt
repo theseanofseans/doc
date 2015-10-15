@@ -5,11 +5,9 @@ git add <FILE>
 
 git commit
 
-##git remote add origin <URL>
 git remote add dropbox file://$HOME/Dropbox/pocg/scripts.git
 
 git status
 
-##git push origin master
 git push dropbox master
 
